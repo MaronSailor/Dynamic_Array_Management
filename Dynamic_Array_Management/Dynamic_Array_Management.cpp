@@ -2,7 +2,7 @@
 #include <ctime>
 #include <random>
 
-int *arrayCreate(int arraySize, int maxRand) {
+int *arrayCreate(int arraySize, int maxRand) { // Creates the array
     try {
         int* myVector = new int[arraySize];
         std::cout << "Array: ";
@@ -19,7 +19,7 @@ int *arrayCreate(int arraySize, int maxRand) {
     }
 }
 
-int* arraySort(int* Array, int arraySize) {
+int* arraySort(int* Array, int arraySize) { // Sorts the array
     try {
         int* sortingArray = Array;
         int tmp;
@@ -42,7 +42,7 @@ int* arraySort(int* Array, int arraySize) {
     }
 }
 
-int* arrayPopOut(int* Array, int arraySize) {
+int* arrayPopOut(int* Array, int arraySize) { // Deletes the defined element 
     int elementToPopOut;
     std::cout << "\nEnter which element you want to pop out => "; std::cin >> elementToPopOut;
     try {
@@ -62,7 +62,7 @@ int* arrayPopOut(int* Array, int arraySize) {
     }
 }
 
-int* arrayPushBack(int* Array, int arraySize) {
+int* arrayPushBack(int* Array, int arraySize) { // Adds new element to the vector
     int elementToPushBack;
     std::cout << "\nEnter the number you want to add at the end => "; std::cin >> elementToPushBack;
     try {
@@ -81,7 +81,7 @@ int* arrayPushBack(int* Array, int arraySize) {
     }
 }
 
-int* arraySortDelete(int* Array, int arraySize) {
+int* arraySortDelete(int* Array, int arraySize) { // Deletes duplicates
     try {
         int tmp;
         short int j = 0;
@@ -118,9 +118,9 @@ int main()
     srand(time(NULL));
     int vectorSize;
     std::cout << "Enter the size of an array => "; std::cin >> vectorSize;
-    int* superArray = arrayCreate(vectorSize, 100); // 100 - max number
+    int* superArray = arrayCreate(vectorSize, 100); // 100 - max number for random generation
     superArray = arraySort(superArray, vectorSize);
     //arrayPopOut(superArray, vectorSize);
     //arrayPushBack(superArray, vectorSize);
-    //arraySortDelete(superArray, vectorSize);
+    arraySortDelete(superArray, vectorSize);
 }
