@@ -1,0 +1,9 @@
+﻿  Dynamic_Array_Management.cpp
+C:\Users\Maron_Sailor\Desktop\CPP\MyCodes\Pointers_Study\Dynamic_Array_Management\Dynamic_Array_Management\Dynamic_Array_Management.cpp(86,13): warning C4101: 'tmp': unreferenced local variable
+C:\Users\Maron_Sailor\Desktop\CPP\MyCodes\Pointers_Study\Dynamic_Array_Management\Dynamic_Array_Management\Dynamic_Array_Management.cpp(118,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Maron_Sailor\Desktop\CPP\MyCodes\Pointers_Study\Dynamic_Array_Management\Dynamic_Array_Management\Dynamic_Array_Management.cpp(114,1): warning C4715: 'arraySortDelete': not all control paths return a value
+C:\Users\Maron_Sailor\Desktop\CPP\MyCodes\Pointers_Study\Dynamic_Array_Management\Dynamic_Array_Management\Dynamic_Array_Management.cpp(20,1): warning C4715: 'arrayCreate': not all control paths return a value
+C:\Users\Maron_Sailor\Desktop\CPP\MyCodes\Pointers_Study\Dynamic_Array_Management\Dynamic_Array_Management\Dynamic_Array_Management.cpp(63,1): warning C4715: 'arrayPopOut': not all control paths return a value
+C:\Users\Maron_Sailor\Desktop\CPP\MyCodes\Pointers_Study\Dynamic_Array_Management\Dynamic_Array_Management\Dynamic_Array_Management.cpp(43,1): warning C4715: 'arraySort': not all control paths return a value
+C:\Users\Maron_Sailor\Desktop\CPP\MyCodes\Pointers_Study\Dynamic_Array_Management\Dynamic_Array_Management\Dynamic_Array_Management.cpp(82,1): warning C4715: 'arrayPushBack': not all control paths return a value
+  Dynamic_Array_Management.vcxproj -> C:\Users\Maron_Sailor\Desktop\CPP\MyCodes\Pointers_Study\Dynamic_Array_Management\x64\Debug\Dynamic_Array_Management.exe
